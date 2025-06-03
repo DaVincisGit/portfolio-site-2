@@ -48,7 +48,7 @@ const Contact: React.FC = () => (
       <h2 className="text-4xl font-orbitron font-extrabold text-neonblue neon-shadow mb-7 tracking-wide">
         Contact Me
       </h2>
-      <p className="text-lg md:text-xl text-[#b5eaff] font-mono mb-5">
+      <p className="text-lg md:text-xl text-[#b5eaff] font-mono mb-8">
         Interested in working together or have a project in&nbsp;mind? <br className="hidden md:block" />Let’s connect!
       </p>
       <div className="mb-6">
