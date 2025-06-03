@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Fira+Mono:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Fira Mono', monospace;
+  background: linear-gradient(135deg, #131642 0%, #091021 100%);
+  min-height: 100vh;
+}
+.neon-shadow {
+  text-shadow: 0 0 6px #1ecbf6, 0 0 15px #1ecbf6;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #181d3b;
+}
+::-webkit-scrollbar-thumb {
+  background: #1ecbf6;
+  border-radius: 10px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
