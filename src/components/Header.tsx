@@ -45,9 +45,19 @@ const Header: React.FC = () => (
         <p className="text-base md:text-lg text-[#fff] font-mono italic mt-3 md:mt-6 mb-4 md:mb-6">
           and I turn curiosity into code.
         </p>
-        <p className="text-sm md:text-base lg:text-lg text-[#b5eaff] mb-6 md:mb-8 font-semibold whitespace-nowrap">
-          Data Engineer&nbsp;|&nbsp;Automation Solutions Engineer&nbsp;|&nbsp;Generative AI Specialist
-        </p>
+        <div>
+  {/* Desktop */}
+  <p className="hidden md:block text-base lg:text-lg text-[#b5eaff] mb-8 font-semibold whitespace-nowrap">
+    Data Engineer&nbsp;|&nbsp;Automation Solutions Engineer&nbsp;|&nbsp;Generative AI Specialist
+  </p>
+  {/* Mobile */}
+  <div className="flex flex-col md:hidden text-base text-[#b5eaff] mb-8 font-semibold items-center gap-1">
+    <span>Data Engineer</span>
+    <span>Automation Solutions Engineer</span>
+    <span>Generative AI Specialist</span>
+  </div>
+</div>
+
         <div className="flex flex-col sm:flex-row gap-3 md:gap-5 items-center md:items-start">
   <button
     type="button"

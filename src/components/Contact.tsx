@@ -7,8 +7,8 @@ const SHARED_BG =
 
 const EmailIcon = () => (
   <svg
-    width="28"
-    height="28"
+    width="24"
+    height="24"
     fill="none"
     viewBox="0 0 24 24"
     className="inline align-middle mr-2"
@@ -51,21 +51,25 @@ const Contact: React.FC = () => (
       <p className="text-lg md:text-xl text-[#b5eaff] font-mono mb-8">
         Interested in working together or have a project in&nbsp;mind? <br className="hidden md:block" />Let’s connect!
       </p>
-      <div className="mb-6">
-        <span className="text-xl text-[#b5eaff] font-sans font-bold flex items-center justify-center break-all">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
+        <a
+          href="mailto:athoma3928@gmail.com"
+          className="inline-block bg-transparent border border-neonblue text-neonblue px-6 py-2 rounded-lg hover:bg-neonblue hover:text-black font-orbitron font-bold text-lg transition shadow hover:shadow-neon"
+          style={{ minWidth: 200 }}
+        >
           <EmailIcon />
-          athoma3928@gmail.com
-        </span>
+          Email Me
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anthonythomas3928/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-transparent border border-neonblue text-neonblue px-6 py-2 rounded-lg hover:bg-neonblue hover:text-black font-orbitron font-bold text-lg transition shadow hover:shadow-neon"
+          style={{ minWidth: 200 }}
+        >
+          Visit my LinkedIn
+        </a>
       </div>
-      <a
-        href="https://www.linkedin.com/in/anthonythomas3928/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block bg-transparent border border-neonblue text-neonblue px-6 py-2 rounded-lg hover:bg-neonblue hover:text-black font-orbitron font-bold text-lg transition shadow hover:shadow-neon"
-        style={{ minWidth: 200 }}
-      >
-        Visit my LinkedIn
-      </a>
     </div>
   </section>
 );

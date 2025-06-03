@@ -21,7 +21,7 @@ const EXPERIENCES = [
   {
     img: "/images/epsilon2.png",
     alt: "Epsilon",
-    blurb: "The leader in outcome-based marketing.",
+    blurb: "Epsilon: The leader in outcome-based marketing.",
     url: "https://www.epsilon.com/us?utm_source=google&utm_medium=paid-search&utm_campaign=entr-q125-brand&cid=701Vl00000WePy9IAF&matchtype=e&utm_term=epsilon&gad_source=1&gad_campaignid=22174616831&gbraid=0AAAAACpOpG8yqhX20bt9_jYg3Yf4aCBbW&gclid=Cj0KCQjwuvrBBhDcARIsAKRrkjewHApFiou3-FCKqF9mp9ACG6ej8QQIm9ua15H3yoCJiv0PKIZdkBgaApflEALw_wcB",
   },
 ];
