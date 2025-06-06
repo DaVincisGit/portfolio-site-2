@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-// ChevronUpIcon as before
+// ScrollToTopIcon
 const ChevronUpIcon = () => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
     <path d="M6 15l6-6 6 6" stroke="#1ecbf6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
