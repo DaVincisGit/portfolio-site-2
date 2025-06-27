@@ -73,7 +73,7 @@ const Header: React.FC = () => (
     Work with Me
   </button>
   <a
-    href="/Anthony_Thomas_Resume_6_3.pdf"
+    href="/Anthony_Thomas_Resume_6_27.pdf"
     className="inline-block bg-transparent border border-neonblue text-neonblue px-4 py-1.5 rounded hover:bg-neonblue hover:text-black transition font-mono font-semibold"
     download
   >
