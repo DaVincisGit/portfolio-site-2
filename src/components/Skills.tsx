@@ -12,7 +12,7 @@ const skills = [
   { label: "AWS: S3, EC2, Lambda, Glue, Redshift, SQS, SNS, SES" },
   { label: "ETL, Data Pipeline Design, CI/CD" },
   { label: "Testing and Debugging" },
-  { label: "Version Control" },
+  { label: "Version Control (Git)" },
   { label: "Power BI, Tableau, Excel" },
   { label: "Jira, ServiceNow" },
   { label: "Generative AI (LLMs, RAG, Bedrock, LangChain)" },
