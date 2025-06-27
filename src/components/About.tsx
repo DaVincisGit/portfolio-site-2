@@ -51,7 +51,7 @@ const About: React.FC = () => (
         About Me
       </h2>
       <p className="text-lg md:text-xl text-[#b5eaff] font-mono leading-relaxed mb-6">
-        I’m a results-driven professional with 4 years of experience in SDLC processes and an engineering degree in Computer&nbsp;Science.
+        I’m an AWS-Certified results-driven professional with 4 years of experience in SDLC processes and an engineering degree in Computer&nbsp;Science.
       </p>
       <div className="text-lg md:text-xl text-[#b5eaff] font-mono leading-relaxed mb-6 space-y-2">
         <div><CloudIcon />Proficient in AWS cloud services</div>
